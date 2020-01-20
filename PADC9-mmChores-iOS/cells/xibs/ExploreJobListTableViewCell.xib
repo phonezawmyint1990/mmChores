@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="332" id="KGk-i7-Jjw" customClass="ExploreJobListTableViewCell" customModule="mmChores" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="332"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="332"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B7J-hY-ZmP" customClass="CardView" customModule="mmChores" customModuleProvider="target">
+                        <rect key="frame" x="4" y="4" width="361" height="304"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_explore" translatesAutoresizingMaskIntoConstraints="NO" id="30g-2h-oz9">
+                                <rect key="frame" x="0.0" y="0.0" width="361" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="avM-yA-ZQg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A man in the toilet (Janitor)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTU-2S-a0h">
+                                <rect key="frame" x="24" y="194" width="173.5" height="24"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$250" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYX-4U-0nB">
+                                <rect key="frame" x="315.5" y="194" width="33.5" height="24"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="15"/>
+                                <color key="textColor" name="PrimaryColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-calendar" translatesAutoresizingMaskIntoConstraints="NO" id="N0y-S6-IjC">
+                                <rect key="frame" x="24" y="226" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="2r9-Tk-0vr"/>
+                                    <constraint firstAttribute="height" constant="25" id="vkn-mk-pVK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-worldwide_location" translatesAutoresizingMaskIntoConstraints="NO" id="gEw-Yp-wav">
+                                <rect key="frame" x="24" y="263" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="bfk-j1-697"/>
+                                    <constraint firstAttribute="height" constant="25" id="frm-Tb-nBc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-clock_8" translatesAutoresizingMaskIntoConstraints="NO" id="fLw-MD-QMr">
+                                <rect key="frame" x="168" y="226" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="0mP-RR-ILQ"/>
+                                    <constraint firstAttribute="width" constant="25" id="LAD-9p-CdP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No. 109, 7th Floor, Pazundaung ts., Yangon" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIe-LE-GBQ">
+                                <rect key="frame" x="73" y="266" width="218" height="19"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mG3-Uc-c45">
+                                <rect key="frame" x="209" y="229" width="42.5" height="19"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20-10-1992" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxe-Rb-eYw">
+                                <rect key="frame" x="65" y="228" width="61" height="19"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="30g-2h-oz9" firstAttribute="leading" secondItem="B7J-hY-ZmP" secondAttribute="leading" id="4WF-jm-C8P"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fIe-LE-GBQ" secondAttribute="trailing" constant="24" id="7GQ-x4-Bq8"/>
+                            <constraint firstItem="DTU-2S-a0h" firstAttribute="leading" secondItem="B7J-hY-ZmP" secondAttribute="leading" constant="24" id="7lc-N2-XDB"/>
+                            <constraint firstAttribute="trailing" secondItem="30g-2h-oz9" secondAttribute="trailing" id="9KT-wI-8Dy"/>
+                            <constraint firstAttribute="trailing" secondItem="jYX-4U-0nB" secondAttribute="trailing" constant="12" id="9P1-vr-cKx"/>
+                            <constraint firstItem="mG3-Uc-c45" firstAttribute="leading" secondItem="fLw-MD-QMr" secondAttribute="trailing" constant="16" id="ARe-sq-HRh"/>
+                            <constraint firstItem="gEw-Yp-wav" firstAttribute="leading" secondItem="B7J-hY-ZmP" secondAttribute="leading" constant="24" id="BbU-Lx-IhI"/>
+                            <constraint firstItem="Zxe-Rb-eYw" firstAttribute="leading" secondItem="N0y-S6-IjC" secondAttribute="trailing" constant="16" id="BlG-zv-zmi"/>
+                            <constraint firstItem="DTU-2S-a0h" firstAttribute="top" secondItem="30g-2h-oz9" secondAttribute="bottom" constant="14" id="DtX-fg-ycg"/>
+                            <constraint firstItem="fIe-LE-GBQ" firstAttribute="leading" secondItem="gEw-Yp-wav" secondAttribute="trailing" constant="24" id="F4d-9s-sGS"/>
+                            <constraint firstItem="gEw-Yp-wav" firstAttribute="top" secondItem="N0y-S6-IjC" secondAttribute="bottom" constant="12" id="GHj-EA-GEM"/>
+                            <constraint firstAttribute="bottom" secondItem="fIe-LE-GBQ" secondAttribute="bottom" constant="19" id="Rwa-Ff-uT1"/>
+                            <constraint firstItem="fLw-MD-QMr" firstAttribute="leading" secondItem="Zxe-Rb-eYw" secondAttribute="trailing" constant="42" id="V9n-1U-Q3V"/>
+                            <constraint firstItem="mG3-Uc-c45" firstAttribute="centerY" secondItem="N0y-S6-IjC" secondAttribute="centerY" id="WiI-zO-iRu"/>
+                            <constraint firstItem="N0y-S6-IjC" firstAttribute="leading" secondItem="B7J-hY-ZmP" secondAttribute="leading" constant="24" id="aSR-F9-Mqt"/>
+                            <constraint firstItem="fIe-LE-GBQ" firstAttribute="top" secondItem="fLw-MD-QMr" secondAttribute="bottom" constant="15" id="bn9-mO-HcZ"/>
+                            <constraint firstItem="jYX-4U-0nB" firstAttribute="top" secondItem="30g-2h-oz9" secondAttribute="bottom" constant="14" id="dvg-Yr-b9v"/>
+                            <constraint firstItem="fLw-MD-QMr" firstAttribute="top" secondItem="DTU-2S-a0h" secondAttribute="bottom" constant="8" id="eUM-as-h76"/>
+                            <constraint firstItem="N0y-S6-IjC" firstAttribute="top" secondItem="DTU-2S-a0h" secondAttribute="bottom" constant="8" id="ei6-Kp-VgS"/>
+                            <constraint firstItem="30g-2h-oz9" firstAttribute="top" secondItem="B7J-hY-ZmP" secondAttribute="top" id="poP-8V-tQr"/>
+                            <constraint firstItem="jYX-4U-0nB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DTU-2S-a0h" secondAttribute="trailing" constant="24" id="svp-gR-7WU"/>
+                            <constraint firstItem="Zxe-Rb-eYw" firstAttribute="top" secondItem="DTU-2S-a0h" secondAttribute="bottom" constant="10" id="uw9-FD-hxf"/>
+                            <constraint firstItem="jYX-4U-0nB" firstAttribute="centerY" secondItem="DTU-2S-a0h" secondAttribute="centerY" id="wb9-Fg-zc8"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="B7J-hY-ZmP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="2V6-Mh-coc"/>
+                    <constraint firstAttribute="bottom" secondItem="B7J-hY-ZmP" secondAttribute="bottom" constant="24" id="5JA-qA-E0r"/>
+                    <constraint firstItem="B7J-hY-ZmP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="H54-D4-6xm"/>
+                    <constraint firstAttribute="trailing" secondItem="B7J-hY-ZmP" secondAttribute="trailing" constant="4" id="mVs-44-cWD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ivJobImage" destination="30g-2h-oz9" id="R0y-NC-xPX"/>
+                <outlet property="lblAmount" destination="jYX-4U-0nB" id="Gu8-Jj-H9V"/>
+                <outlet property="lblJobDate" destination="Zxe-Rb-eYw" id="zqu-ui-kAW"/>
+                <outlet property="lblJobDescription" destination="DTU-2S-a0h" id="Tx6-cE-QKc"/>
+                <outlet property="lblJobTime" destination="mG3-Uc-c45" id="o7p-9r-yfb"/>
+                <outlet property="lblLocation" destination="fIe-LE-GBQ" id="Kje-E8-Lvz"/>
+            </connections>
+            <point key="canvasLocation" x="167.39130434782609" y="214.28571428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icons8-calendar" width="36" height="36"/>
+        <image name="icons8-clock_8" width="36" height="36"/>
+        <image name="icons8-worldwide_location" width="36" height="36"/>
+        <image name="img_explore" width="650" height="426.5"/>
+        <namedColor name="PrimaryColor">
+            <color red="0.29803921568627451" green="0.36470588235294116" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="155" id="KGk-i7-Jjw" customClass="LastFooterTableViewCell" customModule="PADC9_mmChores_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="155"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="shs-m0-TMh" customClass="CardView" customModule="PADC9_mmChores_iOS" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="309" height="139"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen Cleaning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zh0-mO-KgW">
+                                <rect key="frame" x="24" y="16" width="175.5" height="38"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-calendar" translatesAutoresizingMaskIntoConstraints="NO" id="ccS-rU-u1p">
+                                <rect key="frame" x="24" y="62" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="Daj-eP-Z4V"/>
+                                    <constraint firstAttribute="width" constant="22" id="MHe-HT-VNV"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-clock_8" translatesAutoresizingMaskIntoConstraints="NO" id="dbd-vi-Dgf">
+                                <rect key="frame" x="149.5" y="62" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="0qL-3P-Pev"/>
+                                    <constraint firstAttribute="width" constant="22" id="AXh-e8-joL"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-worldwide_location" translatesAutoresizingMaskIntoConstraints="NO" id="69p-ks-f6J">
+                                <rect key="frame" x="24" y="98" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="cy3-Hk-cRJ"/>
+                                    <constraint firstAttribute="height" constant="22" id="fQj-T3-UkC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon To Fri" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJl-tm-h4b">
+                                <rect key="frame" x="61" y="63" width="65.5" height="22"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjx-fD-5Wo">
+                                <rect key="frame" x="187.5" y="63" width="44.5" height="22"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No. 109, 7th Floor, Pazundaung ts., Yangon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7K-ug-2pi">
+                                <rect key="frame" x="61" y="98" width="218" height="19"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$250" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRS-uD-eYn">
+                                <rect key="frame" x="237" y="21.5" width="38" height="27"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="17"/>
+                                <color key="textColor" name="PrimaryColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rJl-tm-h4b" firstAttribute="top" secondItem="zh0-mO-KgW" secondAttribute="bottom" constant="9" id="3J6-0L-wOy"/>
+                            <constraint firstItem="c7K-ug-2pi" firstAttribute="top" secondItem="rJl-tm-h4b" secondAttribute="bottom" constant="13" id="9VG-zJ-BYa"/>
+                            <constraint firstItem="zh0-mO-KgW" firstAttribute="top" secondItem="shs-m0-TMh" secondAttribute="top" constant="16" id="EY9-dy-sPW"/>
+                            <constraint firstItem="dbd-vi-Dgf" firstAttribute="top" secondItem="zh0-mO-KgW" secondAttribute="bottom" constant="8" id="Hue-wW-Q39"/>
+                            <constraint firstItem="pjx-fD-5Wo" firstAttribute="top" secondItem="zh0-mO-KgW" secondAttribute="bottom" constant="9" id="Jpe-6M-aRT"/>
+                            <constraint firstItem="rJl-tm-h4b" firstAttribute="leading" secondItem="ccS-rU-u1p" secondAttribute="trailing" constant="15" id="LnB-nL-hWs"/>
+                            <constraint firstItem="pjx-fD-5Wo" firstAttribute="leading" secondItem="dbd-vi-Dgf" secondAttribute="trailing" constant="16" id="MEU-bt-4iG"/>
+                            <constraint firstItem="ccS-rU-u1p" firstAttribute="top" secondItem="zh0-mO-KgW" secondAttribute="bottom" constant="8" id="N3M-qW-kt5"/>
+                            <constraint firstItem="ccS-rU-u1p" firstAttribute="leading" secondItem="shs-m0-TMh" secondAttribute="leading" constant="24" id="U7o-wn-cFl"/>
+                            <constraint firstAttribute="trailing" secondItem="VRS-uD-eYn" secondAttribute="trailing" constant="34" id="Uie-OB-3KY"/>
+                            <constraint firstItem="dbd-vi-Dgf" firstAttribute="leading" secondItem="rJl-tm-h4b" secondAttribute="trailing" constant="23" id="aLZ-h1-417"/>
+                            <constraint firstItem="VRS-uD-eYn" firstAttribute="centerY" secondItem="zh0-mO-KgW" secondAttribute="centerY" id="aSy-mZ-EyC"/>
+                            <constraint firstItem="69p-ks-f6J" firstAttribute="top" secondItem="ccS-rU-u1p" secondAttribute="bottom" constant="14" id="bQL-dD-0g0"/>
+                            <constraint firstItem="c7K-ug-2pi" firstAttribute="leading" secondItem="69p-ks-f6J" secondAttribute="trailing" constant="15" id="mLr-dc-05w"/>
+                            <constraint firstItem="zh0-mO-KgW" firstAttribute="leading" secondItem="shs-m0-TMh" secondAttribute="leading" constant="24" id="pCo-PE-5Yc"/>
+                            <constraint firstItem="VRS-uD-eYn" firstAttribute="top" secondItem="shs-m0-TMh" secondAttribute="top" constant="21.5" id="tUy-7o-y0O"/>
+                            <constraint firstItem="69p-ks-f6J" firstAttribute="leading" secondItem="shs-m0-TMh" secondAttribute="leading" constant="24" id="uRX-7Y-gM0"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="shs-m0-TMh" secondAttribute="trailing" constant="8" id="5LE-uJ-om7"/>
+                    <constraint firstItem="shs-m0-TMh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Qdc-cV-vHW"/>
+                    <constraint firstItem="shs-m0-TMh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="hny-EX-XGt"/>
+                    <constraint firstAttribute="bottom" secondItem="shs-m0-TMh" secondAttribute="bottom" constant="8" id="tWc-OA-eSE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="141.30434782608697" y="157.03125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icons8-calendar" width="36" height="36"/>
+        <image name="icons8-clock_8" width="36" height="36"/>
+        <image name="icons8-worldwide_location" width="36" height="36"/>
+        <namedColor name="PrimaryColor">
+            <color red="0.31372549019607843" green="0.8901960784313725" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
